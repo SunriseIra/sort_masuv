@@ -1,0 +1,54 @@
+body{
+  padding: 30px;
+}
+.divBtn {
+  padding: 20px;
+}
+button {
+  font-style:normal;
+  text-transform: uppercase;
+font-weight: 400;
+  padding: 2% 3%;
+  color: #fff;
+  font-size: 22px;
+  border: none;
+  margin-right: 20px;
+}
+.butnEl:hover {
+  opacity: 0.5;
+}
+
+.butnAll {
+  background: #130f40;
+}
+.butnAll:hover {
+  background: #30336b;
+}
+
+card {
+  width: 100px;
+  height: 30px;
+  padding: 2%;
+  font-size: 22px;
+  border: none;
+  margin-right: 20px;
+  text-transform: uppercase;
+  background-color:#30336b;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.divCard {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+
+}
+.notActive {
+  display: none;
+
+}
+
+.active {
+  display: block;
+}
